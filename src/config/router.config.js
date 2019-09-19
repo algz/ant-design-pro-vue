@@ -338,6 +338,11 @@ export const constantRouterMap = [
       {
         path: 'login',
         name: 'login',
+        meta: {
+          title: '自控所伺服系统',
+          description: 'ALGZ Design 是最具影响力的 Web 设计规范',
+          copyright: 'Copyright &copy; 2019 ALGZ技术组出品 '
+        },
         component: () => import(/* webpackChunkName: "user" */ '@/views/user/Login')
       },
       {
